@@ -9,6 +9,7 @@
 body {
   background-color: black;
   background-image: url(img/cosmos-1853491_1280.jpg);
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 #image {
@@ -61,4 +62,37 @@ figcaption {
 #tribute-info {
   background-color: #3d464f;
   color: whitesmoke;
+}
+
+.internaly {
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.externaly {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.date {
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+  padding-right: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.ext-li-flex {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.intro {
+  text-align: centre;
+  padding: 10px;
 }
