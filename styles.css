@@ -96,3 +96,23 @@ h2 {
   text-align: centre;
   padding: 10px;
 }
+
+#tribute-link {
+  background-color: darkgrey;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+}
+
+a,
+a:visited {
+  color: black;
+  font-weight: 2000;
+}
+
+a:hover,
+#tribute-link:hover {
+  color: whitesmoke;
+  background-color: black;
+}
